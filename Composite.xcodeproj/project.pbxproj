@@ -19,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0366BF473079319800108046 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0366BF483079335E00108046 /* README.RU.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.RU.md; sourceTree = "<group>"; };
+		0366BF4A307939A200108046 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		920919732482A1FF00D5E184 /* ConcretTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcretTask.swift; sourceTree = "<group>"; };
 		920919752482A1FF00D5E184 /* CompositeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeCell.swift; sourceTree = "<group>"; };
 		920919762482A1FF00D5E184 /* CompositeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeTableViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +69,9 @@
 		9289787C248295F200BC75EB = {
 			isa = PBXGroup;
 			children = (
+				0366BF4A307939A200108046 /* LICENSE */,
+				0366BF483079335E00108046 /* README.RU.md */,
+				0366BF473079319800108046 /* README.md */,
 				92897887248295F200BC75EB /* Composite */,
 				92897886248295F200BC75EB /* Products */,
 			);
@@ -315,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
 				INFOPLIST_FILE = Composite/Resouces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
 				INFOPLIST_FILE = Composite/Resouces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
