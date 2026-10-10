@@ -2,6 +2,7 @@
 [![Status](https://img.shields.io/badge/status-deprecated-red)](#)
 [![Purpose](https://img.shields.io/badge/purpose-educational%20%2F%20history-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Year](https://img.shields.io/badge/year-2020-lightgrey)](#)
 
 > **Проект больше не поддерживается.**
 > Оставлен как учебный для ознакомления и истории. 
@@ -9,7 +10,6 @@
 
 Реализация паттерна проектирования **Composite** на языке **Swift** в рамках проекта.
 
-## Screenshots
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Screens/Screenshot_1_Dark.png">
   <source media="(prefers-color-scheme: light)" srcset="Screens/Screenshot_1_Light.png">
@@ -74,3 +74,4 @@ final class CompositeTask: Task {
         }
     }
 }
+```

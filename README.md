@@ -1,7 +1,8 @@
-# Composite Pattern Implementation **[🇷🇺 Rus](./README.RU.md)**
+# Composite Pattern Implementation
 [![Status](https://img.shields.io/badge/status-deprecated-red)](#)
 [![Purpose](https://img.shields.io/badge/purpose-educational%20%2F%20history-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Year](https://img.shields.io/badge/year-2020-lightgrey)](#)
 
 > **This project is no longer maintained.**
 > It is kept as an educational subproject for reference and historical purposes.
@@ -9,7 +10,6 @@
 
 An implementation of the **Composite** design pattern in **Swift** within the project.
 
-## Screenshots
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Screens/Screenshot_1_Dark.png">
   <source media="(prefers-color-scheme: light)" srcset="Screens/Screenshot_1_Light.png">
@@ -74,3 +74,4 @@ final class CompositeTask: Task {
         }
     }
 }
+```
